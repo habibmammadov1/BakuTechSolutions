@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 body {
-  font-family: "Manrope", system-ui, sans-serif;
+  font-family: var(--font-manrope), system-ui, sans-serif;
   color: var(--white);
   background: var(--blue);
   -webkit-font-smoothing: antialiased;
@@ -73,7 +73,7 @@ a { color: inherit; text-decoration: none; }
 
 .ghost {
   position: absolute; z-index: -1; left: 50%; top: 50%; transform: translate(-50%, -50%);
-  font-family: "Anton", Impact, sans-serif; font-size: clamp(90px, 19vw, 300px); line-height: 1;
+  font-family: var(--font-anton), Impact, sans-serif; font-size: clamp(90px, 19vw, 300px); line-height: 1;
   white-space: nowrap; color: transparent; -webkit-text-stroke: 2px rgba(255, 255, 255, .13);
   user-select: none;
 }
@@ -91,7 +91,7 @@ a { color: inherit; text-decoration: none; }
 h1 { line-height: .9; }
 h1 .big {
   display: block;
-  font-family: "Anton", Impact, sans-serif; font-weight: 400;
+  font-family: var(--font-anton), Impact, sans-serif; font-weight: 400;
   font-size: clamp(76px, 13vw, 190px);
   text-transform: uppercase; letter-spacing: -.01em;
 }
@@ -141,9 +141,9 @@ h1 .script {
   font-size: 13px; font-weight: 600; line-height: 1.25;
   box-shadow: 0 14px 30px rgba(5, 15, 90, .28);
 }
-.tag b { font-family: "Anton", Impact, sans-serif; font-weight: 400; font-size: 20px; color: var(--blue); text-transform: uppercase; letter-spacing: .01em; }
+.tag b { font-family: var(--font-anton), Impact, sans-serif; font-weight: 400; font-size: 20px; color: var(--blue); text-transform: uppercase; letter-spacing: .01em; }
 .t1 { top: 4%; left: -4%; transform: rotate(-5deg); }
-.t2 { bottom: 6%; right: -2%; transform: rotate(4deg); font-family: "Anton", Impact, sans-serif; font-weight: 400; font-size: 20px; line-height: 1; }
+.t2 { bottom: 6%; right: -2%; transform: rotate(4deg); font-family: var(--font-anton), Impact, sans-serif; font-weight: 400; font-size: 20px; line-height: 1; }
 .dots { display: flex; gap: 4px; margin-bottom: 8px; }
 .dots i { width: 7px; height: 7px; border-radius: 50%; background: #FF5F57; }
 .dots i:nth-child(2) { background: #FEBC2E; }
@@ -158,7 +158,7 @@ h1 .script {
   background: rgba(255, 255, 255, .1); border: 1px solid rgba(255, 255, 255, .22);
   font-weight: 700; font-size: 14px;
 }
-.services li span { font-family: "Anton", Impact, sans-serif; font-weight: 400; color: var(--cyan); font-size: 15px; }
+.services li span { font-family: var(--font-anton), Impact, sans-serif; font-weight: 400; color: var(--cyan); font-size: 15px; }
 
 .foot {
   display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px;

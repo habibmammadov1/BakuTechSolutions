@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="200 300 854 640" role="img" aria-label="Bakı Texnoloji Həlləri">
+  <defs>
+    <linearGradient id="btsL" x1="250" y1="760" x2="740" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1238FF"/>
+      <stop offset="1" stop-color="#1A8CFF"/>
+    </linearGradient>
+    <linearGradient id="btsR" x1="560" y1="480" x2="1000" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00D9F5"/>
+      <stop offset="1" stop-color="#0A84FF"/>
+    </linearGradient>
+  </defs>
+  <path d="M520 830 L312 620 L528 412 L716 598" fill="none" stroke="url(#btsL)" stroke-width="100" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M734 410 L942 620 L726 828 L538 642" fill="none" stroke="url(#btsR)" stroke-width="100" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

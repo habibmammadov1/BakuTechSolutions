@@ -1,5 +1,11 @@
 # Bakı Texnoloji Həlləri — bakutechs.com
 
-"Tezliklə xidmətinizdəyik" (coming soon) landing page for Bakı Texnoloji Həlləri / Baku Tech Solutions.
+"Tezliklə xidmətinizdəyik" (coming soon) landing page for Bakı Texnoloji Həlləri, built with Next.js (App Router).
 
-Static site: `index.html` + `assets/` (logo SVG, stylesheet). No build step — upload the files as-is to any static host.
+```bash
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # static export to ./out
+```
+
+`npm run build` produces a fully static site in `out/` (`output: "export"`), so it can be uploaded to any static host — e.g. Spaceship hosting (upload the contents of `out/` to `public_html`).

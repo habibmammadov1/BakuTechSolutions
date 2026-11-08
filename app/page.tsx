@@ -1,11 +1,12 @@
 const INSTAGRAM = "https://www.instagram.com/bakutechsolutions";
 
 const services = [
+  "ERP və CRM həlləri",
+  "Mobil və veb applər",
   "Responsiv veb saytlar",
   "Süni intellekt həlləri",
   "Reklam kampaniyaları",
   "Rəqəmsal strategiya",
-  "Brendinq və dizayn",
   "IT dəstəyi",
 ];
 

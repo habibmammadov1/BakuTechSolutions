@@ -39,7 +39,7 @@ a { color: inherit; text-decoration: none; }
 .wave { position: absolute; z-index: -1; fill: none; stroke: var(--white); stroke-linecap: round; pointer-events: none; }
 .wave path { stroke-width: 18; }
 .wave-top { top: -40px; right: -60px; width: min(620px, 80vw); opacity: .95; }
-.wave-bottom { bottom: -70px; left: -80px; width: min(720px, 95vw); opacity: .95; }
+.wave-bottom { bottom: -150px; left: -120px; width: min(620px, 85vw); opacity: .95; }
 
 /* top bar */
 .topbar {
@@ -150,12 +150,13 @@ h1 .script {
 .dots i:nth-child(3) { background: #28C840; }
 
 /* services */
-.services { padding: 0 clamp(16px, 5vw, 64px) 26px; max-width: 1320px; width: 100%; margin: 0 auto; }
+.services { position: relative; z-index: 1; padding: 0 clamp(16px, 5vw, 64px) 26px; max-width: 1320px; width: 100%; margin: 0 auto; }
 .services ul { list-style: none; display: flex; flex-wrap: wrap; gap: 10px; }
 .services li {
   display: inline-flex; align-items: center; gap: 10px;
   padding: 11px 16px; border-radius: 12px;
-  background: rgba(255, 255, 255, .1); border: 1px solid rgba(255, 255, 255, .22);
+  background: #2350EE; border: 1px solid rgba(255, 255, 255, .28);
+  position: relative; z-index: 1;
   font-weight: 700; font-size: 14px;
 }
 .services li span { font-family: var(--font-anton), Impact, sans-serif; font-weight: 400; color: var(--cyan); font-size: 15px; }

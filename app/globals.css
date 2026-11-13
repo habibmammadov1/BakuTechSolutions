@@ -71,12 +71,6 @@ a { color: inherit; text-decoration: none; }
   max-width: 1320px; width: 100%; margin: 0 auto;
 }
 
-.ghost {
-  position: absolute; z-index: -1; left: 50%; top: 50%; transform: translate(-50%, -50%);
-  font-family: var(--font-anton), Impact, sans-serif; font-size: clamp(90px, 19vw, 300px); line-height: 1;
-  white-space: nowrap; color: transparent; -webkit-text-stroke: 2px rgba(255, 255, 255, .13);
-  user-select: none;
-}
 
 .eyebrow {
   display: inline-flex; align-items: center; gap: 10px;
@@ -142,8 +136,8 @@ h1 .script {
   box-shadow: 0 14px 30px rgba(5, 15, 90, .28);
 }
 .tag b { font-family: var(--font-anton), Impact, sans-serif; font-weight: 400; font-size: 20px; color: var(--blue); text-transform: uppercase; letter-spacing: .01em; }
-.t1 { top: 4%; left: -4%; transform: rotate(-5deg); }
-.t2 { bottom: 6%; right: -2%; transform: rotate(4deg); font-family: var(--font-anton), Impact, sans-serif; font-weight: 400; font-size: 20px; line-height: 1; }
+.t1 { top: -1%; left: -5%; transform: rotate(-5deg); }
+.t2 { bottom: -1%; right: -10%; transform: rotate(4deg); font-family: var(--font-anton), Impact, sans-serif; font-weight: 400; font-size: 20px; line-height: 1; }
 .dots { display: flex; gap: 4px; margin-bottom: 8px; }
 .dots i { width: 7px; height: 7px; border-radius: 50%; background: #FF5F57; }
 .dots i:nth-child(2) { background: #FEBC2E; }
@@ -172,8 +166,6 @@ h1 .script {
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; gap: 28px; padding-top: 8px; }
   .visual { max-width: 340px; order: -1; }
-  .t1 { left: -2%; }
-  .ghost { top: 30%; }
 }
 @media (max-width: 520px) {
   .pill { padding: 9px 12px; font-size: 0; gap: 0; }

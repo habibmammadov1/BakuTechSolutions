@@ -41,8 +41,6 @@ export default function Home() {
       </header>
 
       <main className="hero">
-        <p className="ghost" aria-hidden="true">IT HƏLLƏRİ</p>
-
         <div className="copy">
           <p className="eyebrow">
             <span className="live" /> Yeni saytımız hazırlanır

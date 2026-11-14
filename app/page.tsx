@@ -46,8 +46,9 @@ export default function Home() {
             <span className="live" /> Yeni saytımız hazırlanır
           </p>
           <h1>
+            <span className="pre">Saytımız</span>
             <span className="big">Tezliklə</span>
-            <span className="script">xidmətinizdəyik</span>
+            <span className="script">xidmətinizdədir!</span>
           </h1>
           <p className="lead">
             Biz təxmin etmirik — strategiya qurur, analiz edir və nəticə yaradırıq. Veb saytlardan süni

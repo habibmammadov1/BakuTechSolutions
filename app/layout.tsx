@@ -7,11 +7,11 @@ const manrope = Manrope({ weight: ["400", "500", "700", "800"], subsets: ["latin
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://bakutechs.com"),
-  title: "Bakı Texnoloji Həlləri — Tezliklə xidmətinizdəyik",
+  title: "Bakı Texnoloji Həlləri — Saytımız tezliklə xidmətinizdədir!",
   description: "Bakı Texnoloji Həlləri — IT həlləri təqdim edən şirkət. Yeni saytımız tezliklə istifadəyə veriləcək.",
   openGraph: {
-    title: "Bakı Texnoloji Həlləri — Tezliklə xidmətinizdəyik",
-    description: "IT həlləri, veb saytlar, rəqəmsal strategiya. Tezliklə xidmətinizdəyik.",
+    title: "Bakı Texnoloji Həlləri — Saytımız tezliklə xidmətinizdədir!",
+    description: "IT həlləri, veb saytlar, rəqəmsal strategiya. Saytımız tezliklə xidmətinizdədir!",
     url: "https://bakutechs.com/",
     type: "website",
   },

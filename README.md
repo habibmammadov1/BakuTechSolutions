@@ -1,6 +1,6 @@
 # Bakı Texnoloji Həlləri — bakutechs.com
 
-"Tezliklə xidmətinizdəyik" (coming soon) landing page for Bakı Texnoloji Həlləri, built with Next.js (App Router).
+"Saytımız tezliklə xidmətinizdədir!" (coming soon) landing page for Bakı Texnoloji Həlləri, built with Next.js (App Router).
 
 ```bash
 npm install

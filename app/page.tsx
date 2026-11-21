@@ -23,7 +23,7 @@ export default function Home() {
 
       <header className="topbar">
         <a className="brand" href="/" aria-label="Bakı Texnoloji Həlləri">
-          <img src="/logo.svg" alt="" width={44} height={33} />
+          <img src="/logo.svg" alt="" width={44} height={32} />
           <span>
             Bakı Texnoloji
             <br />
